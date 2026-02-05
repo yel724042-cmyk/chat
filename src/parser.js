@@ -106,3 +106,10 @@ function parseBetText(adminUser, text) {
 
   return results;
 }
+const text = `
+2D 123 5000
+3D_DAI 456 1000
+3D_TWANT 789 200000
+`;
+
+console.log(parseBetText("UserA", text));
